@@ -12,9 +12,9 @@ defmodule Ueberauth.Strategy.Github.OAuth do
 
   @defaults [
     strategy: __MODULE__,
-    site: "https://api.github.com",
-    authorize_url: "https://github.com/login/oauth/authorize",
-    token_url: "https://github.com/login/oauth/access_token",
+    site: "https://github.tools.sap/api/v3",
+    authorize_url: "https://github.tools.sap/login/oauth/authorize",
+    token_url: "https://github.tools.sap/login/oauth/access_token",
   ]
 
   @doc """
